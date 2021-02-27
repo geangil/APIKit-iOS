@@ -1,0 +1,19 @@
+{
+  "title": "User",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "dashboardUi": {"$ref": "dashboard.json"},
+    "code": {"type": "integer"},
+    "name": {"type": "string", "codingKey": "nome"},
+    "token": {"type": "string"},
+    "photoUrl": {"type": "string", "codingKey": "urlFoto"},
+    "cpf": {"type": "string", "codingKey": ""},
+    "flagTerms": {"type": "boolean", "codingKey": "flagTermoDeUso"},
+    "investorProfile": {"type": "string", "codingKey": "perfilInvestidor"},
+    "listAccount": {"type": "array", "items": {"$ref": "account.json"}, "codingKey": "contas"},
+    "currentAccountUi": {"$ref": "account.json"},
+    "listCode": {"type": "array", "items": {"$ref": "listSelect.json"}, "codingKey": "codigos"},
+  },
+  "required": []
+}

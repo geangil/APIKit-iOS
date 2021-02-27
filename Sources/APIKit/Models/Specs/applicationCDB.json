@@ -1,0 +1,18 @@
+{
+  "title": "ApplicationCDB",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "modalityName": {"type": "string", "codingKey": "nomeModalidade"},
+    "investmentDate": {"type": "string", "codingKey": "dataInvestimento"},
+    "dueDate": {"type": "string", "codingKey": "dataVencimento"},
+    "currentBalance": {"type": "number", "codingKey": "saldoAtual"},
+    "netValue": {"type": "number", "codingKey": "valorLiq"},
+    "appliedValue": {"type": "number", "codingKey": "valorAplicado"},
+    "iof": {"type": "number", "codingKey": "iof"},
+    "incomeTax": {"type": "number", "codingKey": "ir"},
+    "tax": {"type": "string", "codingKey": "taxa"},
+    "dailyLiquidity": {"type": "boolean", "codingKey": "liquidezDiaria"},
+  },
+  "required": []
+}

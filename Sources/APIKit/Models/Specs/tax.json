@@ -1,0 +1,11 @@
+{
+  "title": "Tax",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "deadline": {"type": "integer", "codingKey": "prazo"},
+    "percentage": {"type": "string", "codingKey": "percIndice"},
+    "deadlineFull": {"type": "string", "codingKey": "prazoPorExtenso"},
+  },
+  "required": []
+}

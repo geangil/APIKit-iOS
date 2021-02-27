@@ -1,0 +1,17 @@
+{
+  "title": "StatementTransfer",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "nsu": {"type": "string"},
+    "type": {"type": "string", "codingKey": "tipo"},
+    "destinyAccount": {"type": "string", "codingKey": "nroContaDestino"},
+    "value": {"type": "number", "codingKey": "valor"},
+    "destinyAgencyCode": {"type": "string", "codingKey": "codAgDestino"},
+    "operationDate": {"type": "string", "codingKey": "dataOperacao"},
+    "status": {"type": "string"},
+    "destinyBankName": {"type": "string", "codingKey": "nomeBancoDestino"},
+  },
+  "required": []
+}
+

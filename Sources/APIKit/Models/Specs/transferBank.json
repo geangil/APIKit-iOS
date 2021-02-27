@@ -1,0 +1,11 @@
+{
+  "title": "TransferBank",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "name": {"type": "string", "codingKey": "nomeBanco"},
+    "ispb": {"type": "string", "codingKey": ""},
+    "code": {"type": "string", "codingKey": "codBanco"},
+  },
+  "required": []
+}

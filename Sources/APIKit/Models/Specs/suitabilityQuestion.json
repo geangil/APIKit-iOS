@@ -1,0 +1,12 @@
+{
+  "title": "SuitabilityQuestion",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "string", "codingKey": "idQuestao"},
+    "type": {"type": "integer", "codingKey": "tipoQuestao"},
+    "description": {"type": "string", "codingKey": "descQuestao"},
+    "listSuitabilityResponse": {"type": "array", "items": {"$ref": "suitabilityResponse.json", "codingKey": "opcoesResposta"}},
+  },
+  "required": []
+}

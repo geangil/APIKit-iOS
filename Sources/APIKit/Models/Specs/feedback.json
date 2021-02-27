@@ -1,0 +1,12 @@
+{
+  "title": "Feedback",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer"},
+    "question": {"type": "string", "codingKey": "descricaoPergunta"},
+    "userResponse": {"type": "string"},
+    "userRating": {"type": "number"},
+  },
+  "required": []
+}

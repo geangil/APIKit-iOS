@@ -1,0 +1,22 @@
+{
+  "title": "ApplicationFund",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "portfolioName": {"type": "string"},
+    "sharesNumber": {"type": "number"},
+    "shareValue": {"type": "number"},
+    "grossValue": {"type": "number"},
+    "invShareValue": {"type": "number"},
+    "invValue": {"type": "number"},
+    "irValue": {"type": "number"},
+    "iofValue": {"type": "number"},
+    "netValue": {"type": "number"},
+    "invSchedTotValue": {"type": "number"},
+    "redemSchedTotValue": {"type": "number"},
+    "hasSchedTotRedem": {"type": "boolean"},
+    "positionDate": {"type": "string"},
+    "initialDate": {"type": "string"},
+  },
+  "required": []
+}

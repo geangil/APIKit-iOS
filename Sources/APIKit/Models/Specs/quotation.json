@@ -1,0 +1,14 @@
+{
+  "title": "Quotation",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "indicator": {"type": "string", "codingKey": "indicador"},
+    "year": {"type": "string", "codingKey": "noAno"},
+    "month": {"type": "string", "codingKey": "mesAnterior"},
+    "month12": {"type": "string", "codingKey": "dozeMeses"},
+    "month24": {"type": "string", "codingKey": "vinteQuatroMeses"},
+    "month36": {"type": "string", "codingKey": "trintaSeisMeses"},
+  },
+  "required": []
+}

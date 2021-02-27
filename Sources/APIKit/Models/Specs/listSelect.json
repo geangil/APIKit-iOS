@@ -1,0 +1,10 @@
+{
+  "title": "ListSelect",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+  },
+  "required": []
+}

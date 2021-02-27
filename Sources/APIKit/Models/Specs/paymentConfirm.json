@@ -1,0 +1,24 @@
+{
+  "title": "PaymentConfirm",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "destBank": {"type": "string", "codingKey": "bancoDest"},
+    "paymentDate": {"type": "string", "codingKey": "dataPagamento"},
+    "discountValue": {"type": "number", "codingKey": "valorDesconto"},
+    "payer": {"type": "string", "codingKey": "pagador"},
+    "titleValue": {"type": "number", "codingKey": "valorTitulo"},
+    "interestValue": {"type": "number", "codingKey": "valorJuros"},
+    "recipient": {"type": "string", "codingKey": "beneficiario"},
+    "recipientCpfCnpj": {"type": "string", "codingKey": "cpfCnpjBenef"},
+    "code": {"type": "string", "codingKey": "linhaDigitavel"},
+    "dueDate": {"type": "string", "codingKey": "dataVencimento"},
+    "payerCpfCnpj": {"type": "string", "codingKey": "cpfCnpjPag"},
+    "fineValue": {"type": "number", "codingKey": "valorMulta"},
+    "minValue": {"type": "number", "codingKey": "valorMinimo"},
+    "maxValue": {"type": "number", "codingKey": "valorMaximo"},
+    "paymentValue": {"type": "number", "codingKey": "valorTotalCobrar"},
+    "allowsChangeValue": {"type": "boolean", "codingKey": "permiteAlterarValor"},
+  },
+  "required": []
+}

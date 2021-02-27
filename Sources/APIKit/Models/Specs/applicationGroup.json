@@ -1,0 +1,12 @@
+{
+  "title": "ApplicationGroup",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "modalityName": {"type": "string", "codingKey": "nomeModalidade"},
+    "appliedValue": {"type": "number", "codingKey": "saldoTotal"},
+    "totalBalance": {"type": "number", "codingKey": "valorAplicado"},
+    "netValue": {"type": "number", "codingKey": "saldoLiquido"},
+  },
+  "required": []
+}

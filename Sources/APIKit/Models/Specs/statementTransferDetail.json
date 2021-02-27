@@ -1,0 +1,24 @@
+{
+  "title": "StatementTransferDetail",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "destAccount": {"type": "string", "codingKey": "contaDest"},
+    "processDate": {"type": "string", "codingKey": "dataProc"},
+    "destBank": {"type": "string", "codingKey": "bancoDest"},
+    "sourceAccount": {"type": "string", "codingKey": "contaRem"},
+    "sourceName": {"type": "string", "codingKey": "nomeRem"},
+    "sourceCpf": {"type": "string", "codingKey": "cpfRem"},
+    "effectDate": {"type": "string", "codingKey": "dataEfetiv"},
+    "tranctionValue": {"type": "number", "codingKey": "valorTransacao"},
+    "sourceAgency": {"type": "string", "codingKey": "agenciaRem"},
+    "destAgency": {"type": "string", "codingKey": "agenciaDest"},
+    "dueDate": {"type": "string", "codingKey": "dataVencto"},
+    "sourceBankName": {"type": "string", "codingKey": "nomeBancoRem"},
+    "sourceBank": {"type": "string", "codingKey": "bancoRem"},
+    "destBankName": {"type": "string", "codingKey": "nomeBancoDest"},
+    "destCpf": {"type": "string", "codingKey": "cpfDest"},
+    "destName": {"type": "string", "codingKey": "nomeDest"},
+  },
+  "required": []
+}

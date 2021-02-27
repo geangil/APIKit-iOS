@@ -1,0 +1,23 @@
+{
+  "title": "RendemptionFundConfirm",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "daysQuotRedem": {"type": "integer"},
+    "availableValue": {"type": "number"},
+    "redemSchedTotValue": {"type": "number"},
+    "closingTimeLimit": {"type": "string"},
+    "workDaysSettlRedem": {"type": "integer"},
+    "invSchedTotValue": {"type": "number"},
+    "minValRedem": {"type": "number"},
+    "initialDate": {"type": "string"},
+    "portfolioId": {"type": "integer"},
+    "workDaysQuotRedem": {"type": "integer"},
+    "minBalance": {"type": "number"},
+    "hasSchedTotRedem": {"type": "boolean"},
+    "portfolioName": {"type": "string"},
+    "valRedem": {"type": "number"},
+    "rendemptionFundInvestmentUi": {"$ref": "rendemptionFundInvestment.json"}
+  },
+  "required": []
+}

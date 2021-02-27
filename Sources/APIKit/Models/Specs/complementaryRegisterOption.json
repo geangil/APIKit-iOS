@@ -1,0 +1,12 @@
+{
+  "title": "ComplementaryRegisterOption",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer", "codingKey": "idOpcao"},
+    "sort": {"type": "integer", "codingKey": "ordemOpcao"},
+    "description": {"type": "string", "codingKey": "descricao"},
+    "isSelected": {"type": "boolean"},
+  },
+  "required": []
+}

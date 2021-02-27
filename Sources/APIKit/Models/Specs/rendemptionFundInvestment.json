@@ -1,0 +1,23 @@
+{
+  "title": "RendemptionFundInvestment",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "minPermVal": {"type": "number"},
+    "iofValue": {"type": "number"},
+    "hasSchedTotRedem": {"type": "integer"},
+    "portfolioName": {"type": "string"},
+    "netValue": {"type": "number"},
+    "type": {"type": "integer"},
+    "irValue": {"type": "number"},
+    "grossValue": {"type": "number"},
+    "workDaysSettlRedem": {"type": "integer"},
+    "redemSchedTotValue": {"type": "number"},
+    "availableValue": {"type": "number"},
+    "portfolioId": {"type": "integer"},
+    "invSchedTotValue": {"type": "number"},
+    "initialDate": {"type": "string"},
+    "minValRedem": {"type": "number"},
+  },
+  "required": []
+}

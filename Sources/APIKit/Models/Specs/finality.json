@@ -1,0 +1,10 @@
+{
+  "title": "Finality",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "name": {"type": "string", "codingKey": "descFinalidade"},
+    "code": {"type": "string", "codingKey": "codFinalidade"},
+  },
+  "required": []
+}

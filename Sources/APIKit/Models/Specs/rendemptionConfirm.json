@@ -1,0 +1,17 @@
+{
+  "title": "RendemptionConfirm",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "valorIda": {"type": "number"},
+    "valorLiquido": {"type": "number"},
+    "valorIr": {"type": "number"},
+    "valorBruto": {"type": "number"},
+    "qtdOperacao": {"type": "integer"},
+    "puRecompra": {"type": "number"},
+    "dataOperacao": {"type": "string"},
+    "valorIof": {"type": "number"},
+    "rendemptionInvestmentUi": {"$ref": "rendemptionInvestment.json"}
+  },
+  "required": []
+}

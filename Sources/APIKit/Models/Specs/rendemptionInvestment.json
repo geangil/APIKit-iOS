@@ -1,0 +1,20 @@
+{
+  "title": "RendemptionInvestment",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "valueApplied": {"type": "number", "codingKey": "valorAplicado"},
+    "nameModality": {"type": "string", "codingKey": "nomeModalidade"},
+    "actualValue": {"type": "number", "codingKey": "valorAtual"},
+    "numSet": {"type": "string", "codingKey": "numEstoque"},
+    "availableValue": {"type": "number", "codingKey": "valorDisponivel"},
+    "investmentDate": {"type": "string", "codingKey": "dataInvestimento"},
+    "dueDate": {"type": "string", "codingKey": "dataVencimento"},
+    "liquidityDiary": {"type": "boolean", "codingKey": "liquidezDiaria"},
+    "allowsRendemption": {"type": "boolean", "codingKey": "permiteResgate"},
+    "stockChildNumber": {"type": "string", "codingKey": "numEstoqueFilho"},
+    "codClientApplication": {"type": "string", "codingKey": "codClienteAplicacao"},
+    "percent": {"type": "number", "codingKey": "percentual"},
+  },
+  "required": []
+}

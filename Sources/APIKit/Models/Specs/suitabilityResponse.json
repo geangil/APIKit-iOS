@@ -1,0 +1,12 @@
+{
+  "title": "SuitabilityResponse",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "string", "codingKey": "idResposta"},
+    "flag": {"type": "string", "codingKey": "flagMonitoramento"},
+    "description": {"type": "string", "codingKey": "descResposta"},
+    "isSelected": {"type": "boolean"},
+  },
+  "required": []
+}

@@ -1,0 +1,4 @@
+spec: ./Sources/APIKit/Models/Specs/
+output: ./Sources/APIKit/Models/Generated
+template: ./Generator/pb-model.stencil
+language: swift

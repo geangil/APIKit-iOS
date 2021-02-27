@@ -1,0 +1,9 @@
+{
+  "title": "Keyboard",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "keyboard": {"type": "string"}
+  },
+  "required": ["keyboard"]
+}

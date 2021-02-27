@@ -1,0 +1,22 @@
+{
+  "title": "Dashboard",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "currentPosition": {"type": "number", "codingKey": "posicaoAtual"},
+    "accountBalance": {"type": "number", "codingKey": "saldoConta"},
+    "rendemptionSchedulingValue": {"type": "number", "codingKey": "vlrResgateAndamento"},
+    "reapplicationDailyLiquity": {"type": "boolean", "codingKey": "liquidezDiariaReaplicacao"},
+    "reapplicationStatus": {"type": "boolean", "codingKey": "statusReaplicacao"},
+    "promotion": {"type": "boolean", "codingKey": "promocao"},
+    "promotionAniversary": {"type": "boolean", "codingKey": "promocaoAniversario"},
+    "hasInfobankProfile": {"type": "boolean", "codingKey": "clientePossuiPerfilInfobank"},
+    "campaignUi": {"$ref": "campaign.json", "codingKey": "campanha"},
+    "hasInstabilityMessage": {"type": "boolean", "codingKey": "existeMensagemInstabilidade"},
+    "instabilityMessageUi": {"$ref": "instabilityMessage.json", "codingKey": "mensagemInstabilidadeApp"},
+    "applicationSummaryUi": {"$ref": "applicationSummary.json", "codingKey": "resumoAplicacoes"},
+    "listApplicationGroup": {"type": "array", "items": {"$ref": "applicationGroup.json", "codingKey": "aplicacoesAgrupados"}},
+    "updateSuitabilityProfile": {"type": "boolean", "codingKey": "atualizarPerfilSuitability"}
+  },
+  "required": []
+}

@@ -1,0 +1,19 @@
+{
+  "title": "StatementNote",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "value": {"type": "number", "codingKey": "vlrIda"},
+    "number": {"type": "string", "codingKey": "numTitulo"},
+    "operationDate": {"type": "string", "codingKey": "dataOperacao"},
+    "noteNumber": {"type": "string", "codingKey": "numNota"},
+    "operation": {"type": "string", "codingKey": "operacao"},
+    "modalityName": {"type": "string", "codingKey": "nomeModalidade"},
+    "dueDate": {"type": "string", "codingKey": "dataVencimento"},
+    "issueDate": {"type": "string", "codingKey": "dataEmissao"},
+    "settlementDate": {"type": "string", "codingKey": "dataLiquidacao"},
+    "dateOfSubscription": {"type": "string", "codingKey": ""},
+    "type": {"type": "string", "codingKey": "dataCotizacao"},
+  },
+  "required": []
+}

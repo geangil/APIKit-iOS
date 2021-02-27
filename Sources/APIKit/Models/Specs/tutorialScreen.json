@@ -1,0 +1,17 @@
+{
+  "title": "TutorialScreen",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer"},
+    "order": {"type": "integer", "codingKey": "ordem"},
+    "title": {"type": "string", "codingKey": "titulo"},
+    "description": {"type": "string", "codingKey": "descricao"},
+    "urlImageIOS": {"type": "string", "codingKey": "urlImagemIos"},
+    "urlImageAndroid": {"type": "string", "codingKey": "urlImagemAndroid"},
+    "colorBackground": {"type": "string", "codingKey": "colorFundo"},
+    "colorTitle": {"type": "string", "codingKey": "corTitulo"},
+    "colorDescription": {"type": "string", "codingKey": "corDescricao"},
+  },
+  "required": []
+}

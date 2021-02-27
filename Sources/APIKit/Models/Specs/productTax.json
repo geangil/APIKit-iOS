@@ -1,0 +1,12 @@
+{
+  "title": "ProductTax",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "product": {"type": "string", "codingKey": "produto"},
+    "dailyLiquidity": {"type": "boolean", "codingKey": "liqDiaria"},
+    "type": {"type": "integer", "codingKey": "tipoProduto"},
+    "listTax": {"type": "array", "items": {"$ref": "tax.json"}},
+  },
+  "required": []
+}

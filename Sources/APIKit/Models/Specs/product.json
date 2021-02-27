@@ -1,0 +1,11 @@
+{
+  "title": "Product",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "name": {"type": "string", "codingKey": "produto"},
+    "description": {"type": "string", "codingKey": "detalhe"},
+  },
+  "required": []
+}
+

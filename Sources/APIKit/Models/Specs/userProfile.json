@@ -1,0 +1,28 @@
+{
+  "title": "UserProfile",
+  "type": "object",
+  "description": "",
+  "identifier": "id",
+  "properties": {
+    "id": {"type": "integer", "codingKey": "idCadastro"},
+    "cpf": {"type": "string"},
+    "name": {"type": "string", "codingKey": "nome"},
+    "email": {"type": "string"},
+    "nickname": {"type": "string", "codingKey": "apelido"},
+    "phone": {"type": "string", "codingKey": "telefoneFixo"},
+    "cellphone": {"type": "string", "codingKey": "telefoneCelular"},
+    "zipcode": {"type": "string", "codingKey": "cep"},
+    "address": {"type": "string", "codingKey": "logradouro"},
+    "number": {"type": "string", "codingKey": "numero"},
+    "complement": {"type": "string", "codingKey": "complemento"},
+    "district": {"type": "string", "codingKey": "bairro"},
+    "city": {"type": "string", "codingKey": "cidade"},
+    "state": {"type": "string", "codingKey": "uf"},
+    "photo": {"type": "string", "codingKey": "fotoPerfil"},
+    "country": {"type": "string", "codingKey": "nomePais"},
+    "updatedAt": {"type": "string", "codingKey": "dataAtualizacao"},
+    "incoming": {"type": "number", "codingKey": "ganho"},
+    "photoUrl": {"type": "string", "codingKey": "urlImagem"},
+  },
+  "required": []
+}

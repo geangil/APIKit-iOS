@@ -1,0 +1,12 @@
+{
+  "title": "CreditLimit",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "tax": {"type": "string", "codingKey": "taxa"},
+    "limitValue": {"type": "number", "codingKey": "valorLimite"},
+    "dueDate": {"type": "string", "codingKey": "dataVencimento"},
+    "showPayment": {"type": "boolean", "codingKey": "mostraPagamento"},
+  },
+  "required": []
+}

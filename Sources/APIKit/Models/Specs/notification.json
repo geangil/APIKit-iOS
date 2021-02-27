@@ -1,0 +1,16 @@
+{
+  "title": "Notification",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer"},
+    "isRead": {"type": "boolean", "codingKey": "visualizada"},
+    "message": {"type": "string", "codingKey": "mensagem"},
+    "title": {"type": "string", "codingKey": "titulo"},
+    "type": {"type": "string", "codingKey": "tipoAcao"},
+    "date": {"type": "string", "codingKey": "dataHora"},
+    "content": {"type": "string", "codingKey": "conteudo"},
+  },
+  "required": []
+}
+

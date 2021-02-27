@@ -1,0 +1,13 @@
+{
+  "title": "InstabilityMessage",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer"},
+    "startDate": {"type": "string", "codingKey": "dataInicio"},
+    "endDate": {"type": "string", "codingKey": "dataFim"},
+    "message": {"type": "string", "codingKey": "mensagemInstabilidade"},
+    "enable": {"type": "boolean", "codingKey": "ativo"},
+  },
+  "required": []
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Account",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "code": {"type": "integer", "codingKey": "codAgencia"},
+    "number": {"type": "integer", "codingKey": "nroConta"},
+  },
+  "required": []
+}

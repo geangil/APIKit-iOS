@@ -1,0 +1,18 @@
+{
+  "title": "StatementPaymentDetail",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "bankName": {"type": "string", "codingKey": "nomeBancoRem"},
+    "processDate": {"type": "string", "codingKey": "dataProc"},
+    "bank": {"type": "string", "codingKey": "bancoRem"},
+    "account": {"type": "string", "codingKey": "contaRem"},
+    "name": {"type": "string", "codingKey": "nomeRem"},
+    "cpf": {"type": "string", "codingKey": "cpfRem"},
+    "effectDate": {"type": "string", "codingKey": "dataEfetiv"},
+    "transactionValue": {"type": "number", "codingKey": "valorTransacao"},
+    "agency": {"type": "string", "codingKey": "agenciaRem"},
+    "barcode": {"type": "string", "codingKey": "codBarras"},
+  },
+  "required": []
+}

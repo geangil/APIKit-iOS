@@ -1,0 +1,18 @@
+{
+  "title": "Dockets",
+  "type": "object",
+  "description": "",
+  "identifier": "portfolioId",
+  "properties": {
+    "portfolioId": {"type": "integer"},
+    "portfolioName": {"type": "string"},
+    "operationCode": {"type": "integer"},
+    "operationName": {"type": "string"},
+    "requestDate": {"type": "string"},
+    "value": {"type": "number"},
+    "situation": {"type": "string"},
+    "redemptionDate": {"type": "string"},
+    "settleDate": {"type": "string"},
+  },
+  "required": []
+}

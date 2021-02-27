@@ -1,0 +1,15 @@
+{
+  "title": "Transfer",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer"},
+    "name": {"type": "string", "codingKey": "nomeFavorecido"},
+    "account": {"type": "string", "codingKey": "conta"},
+    "bank": {"type": "string", "codingKey": "bancoFavorecido"},
+    "agency": {"type": "string", "codingKey": "agencia"},
+    "type": {"type": "string", "codingKey": "tipoConta"},
+    "code": {"type": "string", "codingKey": "codBanco"},
+  },
+  "required": []
+}

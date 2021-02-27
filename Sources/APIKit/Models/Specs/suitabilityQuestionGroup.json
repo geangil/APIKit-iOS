@@ -1,0 +1,9 @@
+{
+  "title": "SuitabilityQuestionGroup",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "listSuitabilityQuestion": {"type": "array", "items": {"$ref": "suitabilityQuestion.json"}},
+  },
+  "required": []
+}

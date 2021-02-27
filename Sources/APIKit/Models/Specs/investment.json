@@ -1,0 +1,18 @@
+{
+  "title": "Investment",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "modalityName": {"type": "string", "codingKey": "nomeModalidade"},
+    "modalityInitial": {"type": "string", "codingKey": "sigModalidade"},
+    "dueDate": {"type": "string", "codingKey": "vencimento"},
+    "percentage": {"type": "number", "codingKey": "percIndice"},
+    "deadline": {"type": "integer", "codingKey": "prazo"},
+    "liquidity": {"type": "boolean", "codingKey": "liquidez"},
+    "incomeTax": {"type": "string", "codingKey": "taxaIr"},
+    "deadlineFull": {"type": "string", "codingKey": "prazoPorExtenso"},
+    "minimumValue": {"type": "number", "codingKey": "vlrMinimoAplicacao"},
+    "portfolioDescription": {"type": "string", "codingKey": "portfolioDescription"},
+  },
+  "required": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "MyManager",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "name": {"type": "string", "codingKey": "nome"},
+    "position": {"type": "string", "codingKey": "cargo"},
+    "avatar": {"type": "string", "codingKey": "foto"},
+    "email": {"type": "string", "codingKey": "email"},
+    "phone": {"type": "string", "codingKey": "telFixo"},
+    "mobilePhone": {"type": "string", "codingKey": "telCelular"},
+    "photo": {"type": "string", "codingKey": "fotoGerente"},
+  },
+  "required": []
+}

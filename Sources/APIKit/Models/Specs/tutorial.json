@@ -1,0 +1,12 @@
+{
+  "title": "Tutorial",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer", "codingKey": "idTutorial"},
+    "name": {"type": "string", "codingKey": "nome"},
+    "description": {"type": "string", "codingKey": "descricao"},
+    "screens": {"type": "array", "items": {"$ref": "tutorialScreen.json"}, "codingKey": "telas"}
+  },
+  "required": []
+}

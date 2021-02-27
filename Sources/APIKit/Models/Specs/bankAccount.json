@@ -1,0 +1,11 @@
+{
+  "title": "BankAccount",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "date": {"type": "string", "codingKey": "dataOp"},
+    "description": {"type": "string", "codingKey": "descricaoOp"},
+    "value": {"type": "number", "codingKey": "valorOp"},
+  },
+  "required": []
+}

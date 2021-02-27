@@ -1,0 +1,12 @@
+{
+  "title": "SecureQuestion",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer", "codingKey": "idPergunta"},
+    "description": {"type": "string", "codingKey": "descPergunta"},
+    "type": {"type": "integer", "codingKey": "tipoResposta"},
+    "answer": {"type": "string"}
+  },
+  "required": []
+}

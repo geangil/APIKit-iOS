@@ -1,0 +1,12 @@
+{
+  "title": "ComplementaryRegister",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {"type": "integer", "codingKey": "idPergunta"},
+    "sort": {"type": "integer", "codingKey": "ordem"},
+    "description": {"type": "string", "codingKey": "descricao"},
+    "options": {"type": "array", "items": {"$ref": "complementaryRegisterOption.json"}},
+  },
+  "required": []
+}
