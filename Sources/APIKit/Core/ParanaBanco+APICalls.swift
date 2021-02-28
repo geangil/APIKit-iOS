@@ -47,8 +47,7 @@ public extension ParanaBanco {
     }
     
     static func editMyProfile(clientCode: String, completion: @escaping (ResultType<UserProfile>) -> Void) {
-        let parameters = [:]
-        Route.editMyProfile(clientCode: clientCode, parameters: parameters).request(as: UserProfile.self, completion: completion)
+        Route.editMyProfile(clientCode: clientCode, parameters: [:]).request(as: UserProfile.self, completion: completion)
     }
     
     static func inTransit(clientCode: String, completion: @escaping (ResultType<Dockets>) -> Void) {
@@ -68,15 +67,15 @@ public extension ParanaBanco {
     }
     
     static func investmentsAvailableForRedemption(investmentCode: String, completion: @escaping (ResultType<RendemptionInvestment>) -> Void) {
-        Route.investmentsAvailableForRedemption(investmentCode: investmentCode).request(as: Investment.self, completion: completion)
+        Route.investmentsAvailableForRedemption(investmentCode: investmentCode).request(as: RendemptionInvestment.self, completion: completion)
     }
     
     static func removeFavored(completion: @escaping (ResultType<BankAccount>) -> Void) {
         Route.removeFavored.request(as: BankAccount.self, completion: completion)
     }
     
-    static func transferTED(completion: @escaping (ResultType<>) -> Void) {
-        Route.investmentFees.request(as: .self, completion: completion)
+    static func transferTED(completion: @escaping (ResultType<Investment>) -> Void) {
+        Route.investmentFees.request(as: Investment.self, completion: completion)
     }
     
     static func signToken(completion: @escaping (ResultType<Investment>) -> Void) {
